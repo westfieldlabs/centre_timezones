@@ -8,10 +8,8 @@ Gem::Specification.new do |spec|
   spec.email         = ['acohen@westfield.com']
   spec.description   = %q{Returns the timezone of a given centre}
   spec.summary       = %q{Returns the timezone of a given centre}
-  spec.homepage      = 'https://github.com/westfield/centre_timezones'
-  spec.license       = 'Apache 2.0'
-
-  spec.license       = 'Apache 2.0'
+  spec.homepage      = 'https://github.com/westfieldlabs/centre_timezones'
+  spec.license       = 'Apache-2.0'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -22,8 +20,6 @@ Gem::Specification.new do |spec|
   end
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.bindir        = 'bin'
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.10'
