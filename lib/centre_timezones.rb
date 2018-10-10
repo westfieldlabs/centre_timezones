@@ -33,6 +33,7 @@ module CentreTimezones
     "citruspark"                 => "US/Eastern",
     "connecticutpost"            => "US/Eastern",
     "countryside"                => "US/Eastern",
+    "coomera"                    => "Australia/Queensland",
     "crestwood"                  => "US/Central",
     "culvercity"                 => "US/Pacific",
     "derby"                      => "Europe/London",
